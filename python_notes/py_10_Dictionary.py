@@ -21,7 +21,7 @@ print(ab)
 
 print(f"\nThere are {len(ab)} contacts in the address-book\n")
 
-for name, address in ab.items():
+for address, name in ab.items():
     print(f'Contact {name} at {address}')
 
 if 'Guido' in ab:

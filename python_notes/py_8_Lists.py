@@ -18,3 +18,5 @@ olditem = shoplist[0] #variable is set
 del shoplist[0] #the 1st item in list is deleted
 print ('I bought the', olditem)
 print ('My shopping list is now', shoplist)
+
+shoplist[3]=watermelon

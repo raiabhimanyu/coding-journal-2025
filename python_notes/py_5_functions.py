@@ -3,16 +3,14 @@ def Happy_Birthday(x,y):
     # End of function
 
 
-Happy_Birthday("Brandon","46") # call the function
+Happy_Birthday("Brandon",46) # call the function
 #order of the parameters defined matters also when function is called it must be of the data type
-
-
 
 def display_invoice(username,amount,due_date):
     print(f"hello {username}")
     print(f"your bill is of ${amount:.2f} is due: {due_date}") # ":.2f" is added to make sure 2 decimal places are printed
 
-display_invoice("jennie",42.50,"01/02")
+display_invoice("jennie",42.50156,"01/02")
 
 
 
@@ -69,7 +67,7 @@ func(25, c=24)
 func(c=50, a=100)#No order needed also u can just ommit the parameter by mentioning the next or mention all
 
 def printMax(x, y):
-    '''Prints the maximum of two numbers.
+    '''Prints thee maximum of two numbers.
     The two values must be integers.'''
     x = int(x) # convert to integers, if possible
     y = int(y)
@@ -82,5 +80,15 @@ print (printMax.__doc__)
 
 #docstrings havent learned
 
+def hello() -> str:
+    """Says hello."""
+    print("Hello!")
+
+# Output: Says hello.
+print(hello.__doc__)   
+help(hello) 
 
 
+
+difit = "canberra"
+print(difit.capitalize())

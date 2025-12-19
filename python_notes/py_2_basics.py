@@ -5,6 +5,7 @@ multiline string"""
 var4='This\tis the first sentence.\nThis is the second sentence.\nRAVI\'s father \\'
 var5=u"\nThis is a Unicode string." #unicode string
 # Unicode is a standard way of writing international text. If you want to write text in your native language such as Hindi or Arabic
+
 print(var4+var5)#concatenation
 #strings are immutable after they are made but variables can be assigned new strings,or new ones can be created
 i = 5; print(i);#more logic in one line using ;
