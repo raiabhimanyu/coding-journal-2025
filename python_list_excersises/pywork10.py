@@ -4,7 +4,7 @@ Sample_List = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 #del Sample_List[4]
 #del Sample_List[5]
 #if using del del from higher indices first
-List=[item for (n,item) in enumerate(Sample_List) if n not in [0,4,5]]
+List=[item for n,item in enumerate(Sample_List) if n not in [0,4,5]]
 
 print(List)
 #would love to learn a bit more list comprehension
@@ -47,5 +47,6 @@ stringlist=[str(x) for x in nums]
 
 nums = [3, -2, 5, -1]
 # Output: [3, 0, 5, 0]
+
 zeropadder=[x for x in nums if x/x==-1 x=0]
 
