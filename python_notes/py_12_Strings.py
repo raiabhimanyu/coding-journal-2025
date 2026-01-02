@@ -12,4 +12,8 @@ if name.find('war') != -1: # sends -1 if substring is not found
 delimiter = '_*_'
 mylist = ['Brazil', 'Russia', 'India', 'China']
 print(delimiter.join(mylist))
-
+inp=input()
+if inp=="hi":
+    print("hi")
+elif inp == "bye":
+    print("bye")
